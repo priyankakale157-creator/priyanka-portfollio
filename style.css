@@ -1,0 +1,96 @@
+/* ===============================
+   General Body Styling
+================================= */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  transition:
+    background-color 0.3s ease,
+    color 0.3s ease;
+}
+
+/* ===============================
+   Hero Section
+================================= */
+.hero {
+  height: 100vh;
+  background: linear-gradient(45deg, #007bff, #6610f2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.hero h3 {
+  margin-top: 15px;
+  font-weight: 400;
+}
+
+/* ===============================
+   Project Cards
+================================= */
+.project-card {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  border: none;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* ===============================
+   Contact Form
+================================= */
+#contact input,
+#contact textarea {
+  border-radius: 8px;
+}
+
+/* ===============================
+   Dark Mode Styling
+================================= */
+body.dark-mode {
+  background-color: #121212;
+  color: white;
+}
+
+body.dark-mode .navbar {
+  background-color: #000 !important;
+}
+
+body.dark-mode .bg-light {
+  background-color: #1e1e1e !important;
+}
+
+body.dark-mode .card {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+body.dark-mode footer {
+  background-color: #000 !important;
+}
+
+/* ===============================
+   Responsive Design
+================================= */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+
+  .hero h3 {
+    font-size: 1.2rem;
+  }
+}
