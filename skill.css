@@ -1,0 +1,9 @@
+.skill-card {
+  text-align: center;
+  padding: 20px;
+}
+
+.skill-card img {
+  width: 60px;
+  margin-bottom: 10px;
+}

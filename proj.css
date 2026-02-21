@@ -1,0 +1,16 @@
+.project-card {
+  width: 300px;
+  padding: 15px;
+  border-radius: 10px;
+  background: #f4f4f4;
+  transition: 0.3s ease;
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.project-card:hover {
+  transform: scale(1.05);
+}
